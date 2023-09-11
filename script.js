@@ -13,7 +13,7 @@ dayObject.textContent = day
 function currentUTC() {
     const utcObject = document.getElementById('currentUTCTime')
     const today = new Date()
-    const utc = today.getUTCMilliseconds()
+    const utc = today.getTime()
     utcObject.textContent = utc  
     }
 const updateButtonday = document.getElementById('currentDay');
